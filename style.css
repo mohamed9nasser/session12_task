@@ -1,0 +1,370 @@
+/* Global Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin-bottom: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #337ab7;
+  }
+  
+  a:hover {
+    color: #23527c;
+  }
+  
+  /* Header Styles */
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-bottom: 0;
+  }
+  
+  /* Navigation Styles */
+  
+  nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #fff;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+  }
+  
+  /* Landing Page Styles */
+  
+  .landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .landing-page h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .landing-page p {
+    margin-bottom: 40px;
+  }
+  
+  .landing-page a {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .landing-page a:hover {
+    background-color: #23527c;
+  }
+  
+  /* Register and Login Page Styles */
+  
+  .register-login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .register-login-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .register-login-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .register-login-page label {
+    margin-bottom: 10px;
+  }
+  
+  .register-login-page input[type="text"], .register-login-page input[type="password"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .register-login-page input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .register-login-page input[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  /* Home Page Styles */
+
+  
+  table {
+
+    border-collapse: collapse;
+
+    width: 100%;
+
+}
+
+
+
+th, td {
+
+    border: 1px solid #ddd;
+
+    padding: 10px;
+
+    text-align: left;
+
+}
+
+
+
+th {
+
+    background-color: #f0f0f0;
+
+}
+
+
+
+tr:nth-child(even) {
+
+    background-color: #f9f9f9;
+
+}
+
+
+
+tr:hover {
+
+    background-color: #f2f2f2;
+
+}
+
+
+
+.delete-button {
+
+    background-color: #ff0000;
+
+    color: #fff;
+
+    border: none;
+
+    padding: 5px 10px;
+
+    font-size: 12px;
+
+    cursor: pointer;
+
+}
+
+
+
+.delete-button:hover {
+
+    background-color: #cc0000;
+
+}
+
+  /*
+  .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .home-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .home-page ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .home-page li {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .home-page a {
+    color: #337ab7;
+  }
+  
+  .home-page a:hover {
+    color: #23527c;
+  }
+  */
+  /* Add Note Page Styles */
+  
+  .add-note-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .add-note-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .add-note-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .add-note-page label {
+    margin-bottom: 10px;
+  }
+  
+  .add-note-page input[type="text"], .add-note-page textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .add-note-page input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .add-note-page input[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  /* Update Note Page Styles */
+  
+  .update-note-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .update-note-page h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .update-note-page form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .update-note-page label {
+    margin-bottom: 10px;
+  }
+  
+  .update-note-page input[type="text"], .update-note-page textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .update-note-page input[type="submit"] {
+    background-color: #337ab7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .update-note-page input[type="submit"]:hover {
+    background-color: #23527c;
+  }
+  
+  /* Responsive Styles */
+  
+  @media (max-width: 768px) {
+    .landing-page, .register-login-page, .home-page, .add-note-page, .update-note-page {
+      padding: 10px;
+    }
+    .landing-page h1, .register-login-page h1, .home-page h1, .add-note-page h1, .update-note-page h1 {
+      font-size: 18px;
+    }
+    .register-login-page form, .add-note-page form, .update-note-page form {
+      padding: 10px;
+    }
+}  
